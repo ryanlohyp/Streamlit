@@ -15,4 +15,9 @@ git remote add origin https://github.com/ryanlohyp/Streamlit.git
 git branch -M main
 git push -u origin main
 
-gjigwekgkwhkghegkhkhfkfhwkfhwo
+
+List all remote
+git remote -v
+
+Remove remote
+git remote remove origin
