@@ -4,12 +4,15 @@ from PIL import Image
 from io import BytesIO
 import base64
 
+
 st.set_page_config(layout="wide", page_title="Image Background Remover")
 
 st.write("## Remove background from your image")
 st.write(
-    ":dog: Try uploading an image to watch the background magically removed. Full quality images can be downloaded from the sidebar. This code is open source and available [here](https://github.com/tyler-simons/BackgroundRemoval) on GitHub. Special thanks to the [rembg library](https://github.com/danielgatis/rembg) :grin:"
+    ":cat: Try uploading an image to watch the background magically removed. Full quality images can be downloaded from the sidebar. This code is open source and available [here](https://github.com/tyler-simons/BackgroundRemoval) on GitHub. Special thanks to the [rembg library](https://github.com/danielgatis/rembg) :grin:"
 )
+
+st.write("# HEHE")
 st.sidebar.write("## Upload and download :gear:")
 
 MAX_FILE_SIZE = 5 * 1024 * 1024  # 5MB
@@ -44,3 +47,8 @@ if my_upload is not None:
         fix_image(upload=my_upload)
 else:
     fix_image("./zebra.jpg")
+
+st.sidebar.write("sfuhsfhiege")
+st.sidebar.markdown("\n")
+
+st.sidebar.write("sfdgdsg")
